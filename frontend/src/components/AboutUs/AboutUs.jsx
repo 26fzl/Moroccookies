@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
         <div className="about-us">
           <h1>About Us</h1>
-          <p>Welcome to Moroccookies!</p>
+          <p>Welcome to Moroccookies! </p>
           <p>
             At Moroccookies, we are passionate about sharing the rich and diverse culinary heritage of Morocco through its most delightful sweets. Our mission is to bring the authentic taste of Moroccan desserts to your home, offering you a sweet journey through our recipes.
           </p>
