@@ -1,0 +1,33 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .category-image {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover; 
+  }
+  
+  .category h2 {
+    margin: 0;
+  }
+  
+  .category a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .category a:hover {
+    text-decoration: underline;
+  }
+  

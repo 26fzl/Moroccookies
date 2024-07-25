@@ -1,0 +1,46 @@
+.recipe {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe p {
+    margin-bottom: 15px;
+  }
+  
+  .recipe-image {
+    width: 100%; /* Pour que l'image occupe toute la largeur du conteneur */
+    max-height: 300px; /* Hauteur maximale de l'image */
+    object-fit: cover; /* Pour s'assurer que l'image est bien ajustée */
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .recipe h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .recipe li {
+    margin-bottom: 5px;
+  }
+  
+  .recipe p:last-child,
+  .recipe ul:last-child {
+    margin-bottom: 0;
+  }

@@ -1,0 +1,84 @@
+/* Header.css */
+
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/header_img.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+    padding: 1vw; /* Ajoutez du padding autour pour contenir le contenu */
+    box-sizing: border-box; /* Inclure le padding dans les dimensions */
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: chocolate;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 4vw; /* Utilisez une unité de vue flexible */
+    max-width: 100%; /* Assurez-vous qu'il n'occupe pas plus que le conteneur */
+    margin: 0; /* Supprimez les marges par défaut */
+    border-left: 50px solid transparent;
+    padding: 0.5vw 1vw;
+    box-sizing: border-box;
+}
+
+.header-contents p {
+    color: black;
+    font-size: 1vw;
+    font-weight: bold;
+    max-width: 100%; /* Limitez la largeur maximale */
+}
+
+.header-contents a {
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: chocolate;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+/* Responsive styles */
+@media (max-width: 1050px) {
+    .header-contents {
+        max-width: 60%;
+    }
+
+    .header-contents h2 {
+        font-size: 5vw; /* Réduisez la taille de la police sur les écrans moyens */
+    }
+}
+
+@media (max-width: 750px) {
+    .header-contents {
+        max-width: 80%;
+    }
+
+    .header-contents h2 {
+        font-size: 6vw; /* Réduisez encore la taille de la police sur les petits écrans */
+    }
+
+    .header-contents p {
+        display: none;
+    }
+
+    .header-contents a {
+        padding: 2vw 4vw;
+        font-size: 3vw;
+    }
+}
