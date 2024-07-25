@@ -124,7 +124,6 @@
         display: none; /* Hide right section on small screens */
     }
 
-    /* Show hamburger icon */
     .navbar .hamburger {
         display: flex;
         flex-direction: column;
