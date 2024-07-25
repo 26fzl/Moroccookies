@@ -1,15 +1,18 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { food_list } from "../assets/assets";
 
 export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
 
-
+    const url = "http://localhost:4000";
+    const [token,setToken] = useState("");
 
     const contextValue = {
-        food_list
-
+        food_list,
+        url,
+        token,
+        setToken
     }
     
     return (
