@@ -18,7 +18,7 @@ const ContactUs = () => {
         </ul>
 
         <h2>Visit Us</h2>
-        <p>Want to see more? Visit our chanel at <a href="http://www.youtube.com/moroccokies" target="_blank" rel="noopener noreferrer">www.youtube.com/moroccokies</a> for more recipes and sweet treats!</p>
+        <p>Want to see more? Visit our chanel at <a href="http://www.youtube.com/moroccookies" target="_blank" rel="noopener noreferrer">www.youtube.com/moroccokies</a> for more recipes and sweet treats!</p>
       
         <p>Thank you for being a part of our sweet journey. We look forward to connecting with you!</p>
       </div>
