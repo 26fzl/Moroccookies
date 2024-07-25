@@ -13,7 +13,7 @@ const Recipe = ({ recipe }) => {
           <li key={index}>{ingredient}</li>
         ))}
       </ul>
-      <h3>Instructions:</h3>
+      <h3>Instructions: </h3>
       <p>{recipe.instructions}</p>
     </div>
   );
