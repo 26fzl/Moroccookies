@@ -6,6 +6,7 @@ import validator from "validator"
 
 // Login
 const loginUser =async (req,res) => {
+    console.log("controller.login.user");
     const {email,password} = req.body;
     try {
         const user = await userModel.findOne({email});
@@ -44,7 +45,7 @@ const registerUser = async (req,res) => {
 
         // Validating email format and strong password
         if (!validator.isEmail(email)) {
-            return res.json({sucess:false,message:"Please enter a valid email"})
+            return res.json({success:false,message:"Please enter a valid email"})
         }
 
         if (password.length<8) {
