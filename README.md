@@ -1,5 +1,6 @@
 # Moroccookies
 "Welcome to Moroccookies, your gateway to the delightful world of Moroccan sweets and recipes!"
+![1](https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/1.JPG)
 
 ## Introduction
 Moroccookies is an innovative web platform dedicated to sharing the rich and diverse world of Moroccan sweet recipes. 
@@ -29,6 +30,8 @@ Sign In: A secure page for users to log in to their accounts or create new ones.
 No installation needed! Just visit our website to discover and enjoy our delicious recipes.
 
 ## Screenshots
+<img width="941" alt="3" src="https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/2.jpg">
+
 
 
 
