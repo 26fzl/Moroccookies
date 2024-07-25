@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
       <div className="contact-us">
         <h1>Contact Us</h1>
-        <p>Have a question or feedback for us? We'd love to hear from you!</p>
+        <p>Have a question or feedback for us? We'd love to hear from you! </p>
         
         <h2>Get in Touch</h2>
         <p>You can reach out to us via email at <a href="mailto:your-email@example.com">moroccookies@gmail.com</a> or fill out the form below. We'll get back to you as soon as possible.</p>
