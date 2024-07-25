@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useContext } from 'react';
 import './Navbar.css';
 import { assets } from '../../assets/assets';
 import { Link } from 'react-router-dom';
+import { StoreContext } from '../../context/StoreContext';
 
 const Navbar = ({ setShowLogin }) => {
     const [menu, setMenu] = useState("menu");
@@ -12,6 +13,7 @@ const Navbar = ({ setShowLogin }) => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    const {token,setToken}=useContext(StoreContext);
     const handleClickOutside = (event) => {
         if (menuRef.current && !menuRef.current.contains(event.target)) {
             setIsMenuOpen(false);
@@ -51,7 +53,15 @@ const Navbar = ({ setShowLogin }) => {
                     <Link to='/contact-us' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>Contact Us</Link>
                 </li>
                 <li className="sign-in-button">
-                    <button onClick={() => setShowLogin(true)}>Sign in</button>
+                {!token?<button onClick={() => setShowLogin(true)}>Sign in</button>
+                :<div className='navbar-profile'>
+                    <img src={assets.profile_icon} alt="" />
+                    <ul className="nav-profile-dropdown">
+                        <li><img src={assets.logout_icon} alt="" /><p>Logout</p></li>
+                        <hr/>
+                    </ul>
+                </div>
+                }
                 </li>
             </ul>
         </div>
