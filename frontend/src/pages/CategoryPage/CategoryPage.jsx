@@ -4,6 +4,7 @@ import Meal from '../../components/Meal/Meal';
 import { food_list } from '../../assets/assets';
 import './CategoryPage.css'
 
+
 const meals = {
   'Choco Sablé Sweets': [
     { name: 'Jam Shortbread Cookies', category: 'Choco Sablé Sweets' },
