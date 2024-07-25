@@ -25,7 +25,7 @@ Sign In: A secure page for users to log in to their accounts or create new ones.
 
 ## Deployment
 
-[ ![2] (https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/3.jpg)
+![2] (https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/3.jpg)
 
 ## Installation
 No installation needed! Just visit our website to discover and enjoy our delicious recipes.
