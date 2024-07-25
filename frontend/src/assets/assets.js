@@ -125,85 +125,62 @@ export const food_list = [
         _id: "1",
         name: "Jam Shortbread Cookies",
         image: food_1,
-        price: 12,
-        description: "Click to view the recipe",
         category: "Choco Sablé Sweets",
     },
     {
         _id: "2",
         name: "Viennese Shortbread",
         image: food_2,
-        price: 18,
-        description: "Click to view the recipe",
         category: "Choco Sablé Sweets"
     }, {
         _id: "3",
         name: "Zellige",
         image: food_3,
-        price: 16,
-        description: "Click to view the recipe",
         category: "Choco Sablé Sweets"
     }, {
         _id: "4",
         name: "Orange and Chocolate Biscuits",
         image: food_4,
-        price: 24,
-        description: "Click to view the recipe",
         category: "Choco Sablé Sweets"
     }, {
         _id: "5",
         name: "Almond Gazelle Horn Pastry",
         image: food_5,
-        price: 14,
-        description: "Click to view the recipe",
         category: "Almond Sweets"
     }, {
         _id: "6",
         name: "Mlowza",
         image: food_6,
-        price: 12,
-        description: "Click to view the recipe",
         category: "Almond Sweets"
     }, {
         _id: "7",
         name: "Briouate",
         image: food_7,
-        price: 20,
-        description: "Click to view the recipe",
         category: "Almond Sweets"
     }, {
         _id: "8",
         name: "Fekkas",
         image: food_8,
-        price: 15,
-        description: "Click to view the recipe",
         category: "Almond Sweets"
     }, {
         _id: "9",
         name: "Jawhara",
         image: food_9,
-        price: 14,
-        description: "Click to view the recipe",
         category: "Deserts"
     }, {
         _id: "10",
         name: "Oranges with Cinnamon",
         image: food_10,
-        price: 22,
-        description: "Click to view the recipe",
         category: "Deserts"
     }, {
         _id: "11",
         name: "El Halwa El Filaliya",
         image: food_11,
-        price: 10,
-        description: "Click to view the recipe",
         category: "Deserts"
     }, {
         _id: "12",
         name: "Amlou Ice Cream",
         image: food_12,
-        price: 12,
         description: "Click to view the recipe",
         category: "Deserts"
     },
@@ -212,143 +189,104 @@ export const food_list = [
         name: "Chbakia ",
         image: food_13,
         price: 12,
-        description: "Click to view the recipe",
         category: "Ramadan Sweet"
     },
     {
         _id: "14",
         name: "Almond sellou",
         image: food_14,
-        price: 18,
-        description: "Click to view the recipe",
         category: "Ramadan Sweet"
     }, {
         _id: "15",
         name: "Makrouts",
         image: food_15,
-        price: 16,
-        description: "Click to view the recipe",
         category: "Ramadan Sweet"
     }, {
         _id: "16",
         name: "Rghaif with Honey",
         image: food_16,
-        price: 24,
-        description: "Click to view the recipe",
         category: "Ramadan Sweet"
     }, {
         _id: "17",
         name: "Orange Cake",
         image: food_17,
-        price: 14,
-        description: "Click to view the recipe",
         category: "Cake"
     }, {
         _id: "18",
         name: "Almond Cake",
         image: food_18,
-        price: 12,
-        description: "Click to view the recipe",
         category: "Cake"
     }, {
         _id: "19",
         name: "Cake with Orange Blossom",
         image: food_19,
-        price: 20,
-        description: "Click to view the recipe",
         category: "Cake"
     }, {
         _id: "20",
         name: "Marble Chocolate Cake",
         image: food_20,
-        price: 15,
-        description: "Click to view the recipe",
         category: "Cake"
     }, {
         _id: "21",
         name: "Mhanncha",
         image: food_21,
-        price: 14,
-        description: "Click to view the recipe",
         category: "Vegan"
     }, {
         _id: "22",
         name: "Jam cookies",
         image: food_22,
-        price: 22,
-        description: "Click to view the recipe",
         category: "Vegan"
     }, {
         _id: "23",
         name: "Crispy Rolls",
         image: food_23,
-        price: 10,
-        description: "Click to view the recipe",
         category: "Vegan"
     }, {
         _id: "24",
         name: "Lemon Ghriba",
         image: food_24,
-        price: 12,
-        description: "Click to view the recipe",
         category: "Vegan"
     },
     {
         _id: "25",
         name: "Almond Ghriyba",
         image: food_25,
-        price: 12,
-        description: "Click to view the recipe",
         category: "Gluten Free"
     },
     {
         _id: "26",
         name: "Glazed Sugar Ghriyba",
         image: food_26,
-        price: 18,
-        description: "Click to view the recipe",
         category: "Gluten Free"
     }, {
         _id: "27",
         name: "Semolina Cake",
         image: food_27,
-        price: 16,
-        description: "Click to view the recipe",
         category: "Gluten Free"
     }, {
         _id: "28",
         name: "Apricot Cookies",
         image: food_28,
-        price: 24,
-        description: "Click to view the recipe",
         category: "Gluten Free"
     }, {
         _id: "29",
         name: "Avocado Zaazaa Juice",
         image: food_29,
-        price: 14,
-        description: "Click to view the recipe",
         category: "Drinks"
     }, {
         _id: "30",
         name: "Mint tea",
         image: food_30,
-        price: 12,
-        description: "Click to view the recipe",
         category: "Drinks"
     }, {
         _id: "31",
         name: "Pomegranate Juice",
         image: food_31,
-        price: 20,
-        description: "Click to view the recipe",
         category: "Drinks"
     }, {
         _id: "32",
         name: "Almond juice",
         image: food_32,
-        price: 15,
-        description: "Click to view the recipe",
         category: "Drinks"
     }
 ]
