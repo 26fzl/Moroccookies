@@ -5,7 +5,7 @@ import validator from "validator"
 
 
 // Login
-const loginUser =async (req,res) => {
+const loginUser = async (req,res) => {
     console.log("controller.login.user");
     const {email,password} = req.body;
     try {
@@ -15,17 +15,18 @@ const loginUser =async (req,res) => {
             return res.json({success:false,message:"User Doesn't exist"})
         }
 
-        const isMatch =await bcrypt.compare(password,user.password)
+        const isMatch = await bcrypt.compare(password,user.password)
 
         if (!isMatch) {
             return res.json({success:false,message:"Invalid credentials"})
         }
 
         const token =createToken(user._id);
-        res.json({success:true})
+        res.json({success:true,token})
 
     } catch (error) {
-
+        console.log(error);
+        res.json({success:false,message:"Error"})
     }
 }
 
@@ -37,13 +38,13 @@ const createToken  = (id) => {
 const registerUser = async (req,res) => {
     const {name,password,email} = req.body;
     try {
-        // Checking if user already exists
+        // Check if user already exists
         const exists = await userModel.findOne({email});
         if (exists) {
             return res.json({success:false,message:"User already exists"})
         }
 
-        // Validating email format and strong password
+        // Validate  email format and strong password
         if (!validator.isEmail(email)) {
             return res.json({success:false,message:"Please enter a valid email"})
         }
@@ -52,7 +53,7 @@ const registerUser = async (req,res) => {
             return res.json({success:false,message:"Please enter a strong password"})
         }
 
-        // Hashing user password 
+        // Hash user password 
         const salt = await bcrypt.genSalt(10)
         const hashedPassword = await bcrypt.hash(password,salt);
 
