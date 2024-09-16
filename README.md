@@ -32,7 +32,11 @@ No installation needed! Just visit our website to discover and enjoy our delicio
 
 ## Screenshots
 <img width="941" alt="3" src="https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/2.jpg">
+
+
 <img width="941" alt="3" src="https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/4.jpg">
+
+
 <img width="941" alt="3" src="https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/5.jpg">
 
 
