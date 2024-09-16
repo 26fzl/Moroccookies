@@ -10,5 +10,5 @@ const Category = ({ category }) => (
     </Link>
   </div>
 );
-
+ 
 export default Category;
