@@ -25,7 +25,5 @@ const {food_list} = useContext(StoreContext)
 }
 
 
-
-
 export default FoodDisplay
 
