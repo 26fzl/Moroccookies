@@ -30,6 +30,7 @@ Sign In: A secure page for users to log in to their accounts or create new ones.
 ## Installation
 No installation needed! Just visit our website to discover and enjoy our delicious recipes.
 
+
 ## Screenshots
 <img width="941" alt="3" src="https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/2.jpg">
 <img width="941" alt="3" src="https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/4.jpg">
