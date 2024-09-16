@@ -30,13 +30,6 @@ const Navbar = ({ setShowLogin }) => {
     return (
         <div className='navbar'>
             <img src={assets.logo} alt="Logo" className="logo" />
-            
-            {/* Hamburger Icon */}
-            <div className="hamburger" onClick={toggleMenu}>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
 
             {/* Menu Items */}
             <ul className={`navbar-menu ${isMenuOpen ? 'open' : ''}`} ref={menuRef}>
