@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom'; 
-
+ 
 
 
 const Footer = () => {
