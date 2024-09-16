@@ -9,5 +9,5 @@ const Meal = ({ meal }) => (
     </Link>
   </div>
 );
-
+ 
 export default Meal;
