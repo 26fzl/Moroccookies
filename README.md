@@ -47,6 +47,7 @@ No installation needed! Just visit our website to discover and enjoy our delicio
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/6688b60a-b024-43b6-a722-8b9bfb998cbd">
 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/1a5a7ded-2c99-4208-beb3-f61489ad3f2d">
 
 
 
