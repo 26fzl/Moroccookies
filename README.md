@@ -45,6 +45,9 @@ No installation needed! Just visit our website to discover and enjoy our delicio
 
 <img width="941" alt="3" src="https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/5.jpg">
 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/6688b60a-b024-43b6-a722-8b9bfb998cbd">
+
+
 
 
 
