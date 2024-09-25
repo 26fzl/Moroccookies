@@ -1,5 +1,7 @@
 # Moroccookies
-"Welcome to Moroccookies, your gateway to the delightful world of Moroccan sweets and recipes!"
+
+Welcome to Moroccookies, your gateway to the delightful world of Moroccan sweets and recipes!
+
 ![1](https://github.com/26fzl/Moroccookies/blob/master/frontend/src/assets/1.JPG)
 
 ## Introduction
